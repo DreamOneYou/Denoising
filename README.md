@@ -18,3 +18,6 @@ python test_HDC_MPRNet.py --save_images
 we will save prediction file is .bin
 
 As shown in the ![figure](submit/21_Megcup.png), the results we finally achieved in the preliminary competition wasted a lot of time because it was the first time to come into contact with this field, resulting in the model not being fully trained.
+
+
+our team![hear](submit/team.png)
