@@ -1,5 +1,8 @@
 
+
 we use 2022 MegCup 炼丹大赛 train dataset, the [data](https://studio.brainpp.com/dataset/3736?name=raw%20%E9%99%8D%E5%99%AA%E6%95%B0%E6%8D%AE%E9%9B%86)
+
+my HDC_MSNet_1 network：Parameter=0.077512M.FLOPs=0.7755G
 ## Training
 select 80% train data as train daset
 ```
