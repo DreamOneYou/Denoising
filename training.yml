@@ -1,0 +1,33 @@
+###############
+## 
+####
+
+GPU: [0]
+
+VERBOSE: True
+
+MODEL:
+  MODE: 'Denoising'
+#  SESSION: 'MPRNet'
+#  SESSION: 'EquiUnet'
+  SESSION: 'HDC-Net_1'
+#  SESSION: 'Unet'
+
+# Optimization arguments.
+OPTIM:
+  BATCH_SIZE: 90
+  NUM_EPOCHS: 300
+  # NEPOCH_DECAY: [10]
+  LR_INITIAL: 2e-4
+  LR_MIN: 1e-6
+  # BETA1: 0.9
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  TRAIN_PS: 256
+  VAL_PS: 256
+  TRAIN_DIR: r'D:\MyData\MegStudio\burst_raw/competition_train_input.0.2.bin' # path to training data
+  VAL_DIR: r'D:\MyData\MegStudio\burst_raw/competition_test_input.0.2.bin'     # path to validation data
+  SAVE_DIR: './checkpoints'          # path to save models and images
+  # SAVE_IMAGES: False
